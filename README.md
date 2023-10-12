@@ -21,3 +21,14 @@ The steps are:
    ```
    sys.path.append(".")
    ```
+6. If the custom module myModule.py is put in the path: C:\\Python39\\kachunLibs which is added in the environment variable's Path
+   
+   ![Environment Variables -> System Variables -> Path](./images/envvar_path.png)
+
+7. import the library directly without using sys
+   ```
+   from myModule import DownloadImage
+   url = 'http://goodview.125mb.com/photostyle.html'
+   objDL = DownloadImage(url)
+   objDL.download()
+   ```
