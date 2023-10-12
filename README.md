@@ -35,3 +35,9 @@ The steps are:
    objDL = DownloadImage(url)
    objDL.download()
    ```
+# Regular Expression
+### 基本功能運算子 1
+| 運算子 | 說明 | 備註 |
+| --- | --- | --- |
+| `git status` | List all *new or modified* files | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged | Show file differences that **haven't been** staged |
