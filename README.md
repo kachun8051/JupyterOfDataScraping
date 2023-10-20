@@ -39,5 +39,9 @@ The steps are:
 ### 基本功能運算子 1
 | 運算子 | 說明 | 備註 |
 | --- | --- | --- |
-| `git status` | List all *new or modified* files | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged | Show file differences that **haven't been** staged |
+| `()` | 字符 **群組** |  |
+| `\|` | 表示 **或者** |  |
+| `?` | 表示 **沒有** 或 **1 個** 資料 | \[0, 1\] |
+| `*` | 表示 **沒有** 或 **1 個以上** 資料 | \[0, 1, 2, 3, ...\] |
+| `+` | 表示 **1 個以上** 資料 | \[1, 2, 3, ...\] |
+| `\` | 表示後續字元作一般符號處理 | escape character |
