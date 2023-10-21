@@ -72,4 +72,4 @@ The steps are:
 | `{x,y}` | 重複 x 至 y 個項目 | match = re.compile(r'(Ha){2,6}') |
 | `^data` | 以 data 為 **首** 的字串 |  |
 | `data$` | 以 data 為 **結尾** 的字串 |  |
-| `data$` | 以 data 為 **結尾** 的字串 |  |
+| `.` | 除了 **\\n** (i.e. 換行) 以外，任何符號 |  |
